@@ -65,5 +65,23 @@ h3{
     width: 200px;
     margin-left: 10px;
 }
-@media{
+@media (max-width: 568px){
+    .barra.open{
+        right: 0;
+        top: 75px;
+    }
+    .barra{
+        height: 100%;
+        width: 250px;
+        background: #141414;
+        position: fixed;
+        top: 70px;
+        right: -250px;
+        z-index: 0;
+        transition: right 0.3s ease;
+    }
+    .galeria{
+        display: block;
+    }
+
 }
